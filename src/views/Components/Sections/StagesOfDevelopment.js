@@ -19,7 +19,7 @@ export default function StagesOfDevelopment() {
           <GridItem xs={12} sm={12} md={1}>
           </GridItem>
           <GridItem xs={12} sm={12} md={2}>
-            <div style={{ width: "110%", padding: "5px", margin: "5px", backgroundColor: "white" }}>
+            <div style={{ width: "100%", padding: "5px", margin: "5px", backgroundColor: "white" }}>
               <h3>Stage 1</h3>
               <h4 style={{ color: "green", fontWeight: "bold" }}>Concept development</h4>
               <ul>
@@ -36,7 +36,7 @@ export default function StagesOfDevelopment() {
             </div>
           </GridItem>
           <GridItem xs={12} sm={12} md={2}>
-            <div style={{ width: "110%", padding: "5px", margin: "5px" }}>
+            <div style={{ width: "100%", padding: "5px", margin: "5px" }}>
               <h3>Stage 2</h3>
               <h4 style={{ color: "green", fontWeight: "bold" }}>UX/UI development</h4>
               <ul>
@@ -53,7 +53,7 @@ export default function StagesOfDevelopment() {
             </div>
           </GridItem>
           <GridItem xs={12} sm={12} md={2}>
-            <div style={{ width: "110%",  padding: "5px", margin: "5px" }}>
+            <div style={{ width: "100%",  padding: "5px", margin: "5px" }}>
               <h3>Stage 3</h3>
               <h4 style={{ color: "green", fontWeight: "bold" }}>Web, mobile app development</h4>
               <ul>
@@ -70,7 +70,7 @@ export default function StagesOfDevelopment() {
             </div>
           </GridItem>
           <GridItem xs={12} sm={12} md={2}>
-            <div style={{ width: "110%", padding: "5px", margin: "5px" }}>
+            <div style={{ width: "100%", padding: "5px", margin: "5px" }}>
               <h3>Stage 4</h3>
               <h4 style={{ color: "green", fontWeight: "bold" }}>Quality assistance</h4>
               <ul>
@@ -87,7 +87,7 @@ export default function StagesOfDevelopment() {
             </div>
           </GridItem>
           <GridItem xs={12} sm={12} md={2}>
-            <div style={{ width: "110%", padding: "5px", margin: "5px" }}>
+            <div style={{ width: "100%", padding: "5px", margin: "5px" }}>
               <h3>Stage 5</h3>
               <h4 style={{ color: "green", fontWeight: "bold" }}>Business platform support</h4>
               <ul>

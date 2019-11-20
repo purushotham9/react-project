@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "kvanawebsite1-dev-20191111182026-authRole",
+            "UnauthRoleArn": "arn:aws:iam::433911383953:role/kvanawebsite1-dev-20191111182026-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::433911383953:role/kvanawebsite1-dev-20191111182026-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "kvanawebsite1-dev-20191111182026-deployment",
+            "UnauthRoleName": "kvanawebsite1-dev-20191111182026-unauthRole",
+            "StackName": "kvanawebsite1-dev-20191111182026",
+            "StackId": "arn:aws:cloudformation:us-west-2:433911383953:stack/kvanawebsite1-dev-20191111182026/d6c3cd30-0481-11ea-ab4f-06b7c09dad0c"
+        }
+    }
+}

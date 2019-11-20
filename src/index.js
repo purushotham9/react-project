@@ -13,9 +13,9 @@ var hist = createBrowserHistory();
 ReactDOM.render(
   <Router history={hist}>
     <Switch>
-      <Route path="/contact-us" component={ContactUs} />
-      <Route path="/services" component={Services} />
-      <Route path="/" component={Components} />
+      <Route path="/contact-us" exact component={ContactUs} />
+      <Route path="/" exact component={Services} />
+      <Route path="/services" exact component={Components} />
     </Switch>
   </Router>,
   document.getElementById("root")

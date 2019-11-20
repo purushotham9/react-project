@@ -23,20 +23,20 @@ import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
 const useStyles = makeStyles(styles);
 
-export default function ProfilePage(props) {
+export default function ContactUs(props) {
   const classes = useStyles();
   const { ...rest } = props;
 
-  function sendEmail(e) {
-    // console.log(e.traget)
-    e.preventDefault();
-    emailjs.sendForm('default_service', 'sample12346', e.target, 'user_drMK65kImcRnTLnVDxnR6')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
-  }
+  // function sendEmail(e) {
+  //   // console.log(e.traget)
+  //   e.preventDefault();
+  //   emailjs.sendForm('default_service', 'sample12346', e.target, 'user_drMK65kImcRnTLnVDxnR6')
+  //     .then((result) => {
+  //       console.log(result.text);
+  //     }, (error) => {
+  //       console.log(error.text);
+  //     });
+  // }
 
   return (
     <div>
@@ -50,6 +50,7 @@ export default function ProfilePage(props) {
           color: "black"
         }}
         {...rest}
+        style={{position: "fixed"}}
       />
       <div className={classNames(classes.main)}>
         <br /><br /><br /><br /><br /><br /><br /><br /><br />
@@ -109,7 +110,7 @@ export default function ProfilePage(props) {
           </GridItem>
           <GridItem xs={12} sm={12} md={5}><br /><br /><br />
             <div style={{ boxShadow: "0 0 10px black", height: "530px", borderRadius: "5px", padding: "20px", margin: "10px" }}><br /><br />
-              <form className="contact-form" onSubmit={sendEmail}>
+              <form className="contact-form">
                 <CustomInput
                   labelText="Name"
                   id="first"

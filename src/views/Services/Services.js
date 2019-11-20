@@ -31,10 +31,11 @@ export default function LoginPage(props) {
           color: "black"
         }}
         {...rest}
+        style={{position: "fixed"}}
       />
       <div className={classNames(classes.main)}>
       <br /><br /><br /><br />
-      <h2 style={{textAlign: "center"}}>Services</h2>
+      <h2 className="services" style={{textAlign: "center"}}>Services</h2>
       <h4 style={{textAlign: "center"}}>Kvana provides a wide range of marketplace development services for various industries</h4>
       <SectionExamples />
       <StagesOfDevelopment />
